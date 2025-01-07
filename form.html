@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <nav>
+        <ul style="display: inline;">
+            <li><a href="/index.html">Dashboard</a></li>
+            <li><a href="/form.html">Sign Up</a></li>
+        </ul>
+    </nav>
+    <header> 
+        <h1>Sign Up</h1>
+        <p style="color: grey;">Take the next steps to apply at AltSchool Africa</p>
+    </header>
+
+    <form>
+        <label for="name1">First Name</label><br>
+        <input type="text" placeholder="First Name" id="name1" required>
+        <br><br>
+        <label for="name2">Last Name</label><br>
+        <input type="text" placeholder="Last Name" id="name2" required>
+        <br><br>
+        <label for="email">Email</label><br>
+        <input type="email" placeholder="Email" id="email" required>
+        <br><br>
+        <label for="gender">Gender</label><br>
+        <select id="gender" required>
+            <option value="" disabled selected>Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        <br><br>
+
+        <fieldset>
+        <legend> What Gender? </legend>
+        <label>Male
+        <input type="radio" name="gender" value="male" required>
+        </label>
+        <label>Female
+        <input type="radio" name="gender" value="female" required>
+        </label>
+        <label>Other
+        <input type="radio" name="gender" value="other" required>
+        </label><br><br>
+        
+        </fieldset>
+
+        <label>Male
+        <input type="checkbox" name="male" value="male" required>
+        </label>
+        <label>Female
+        <input type="checkbox" name="female" value="female" required>
+        </label>
+        <label>Other
+        <input type="checkbox" name="other" value="other" required>
+        </label><br><br>
+
+
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" placeholder="Date of Birth" id="dob" required>
+        <br><br>
+        <label for="phone">Phone Number</label><br>
+        <input type="text" placeholder="Phone Number" id="phone" required>
+        <br><br>
+        <label for="state">State of Residence</label><br>
+        <input type="text" placeholder="State" id="state" required>
+        <br><br>
+        <label for="password">Password</label><br>
+        <input type="password" placeholder="Password" id="password" required>
+        <br><br>
+        <label for="confirm">Confirm Password</label><br>
+        <input type="password" placeholder="Confirm Password" id="confirm" required>
+        <br><br>
+        <label for="optional">How did you hear about us?</label><br>
+        <input type="text" placeholder="Optional: Let us know how you found us" id="optional">
+        <br><br>
+        <p>By clicking continue, I agree to <a href="">Terms of Use</a> and acknowledge that I have read the <a href="">Privacy Policy</a>.</p>
+        <button style="padding: 4px; background-color: rgb(30, 68, 255); color: azure;">Signup &rarr;</button>
+    </form>
+    
+    <footer style="background-color: black; color: azure; margin-top: 10px; text-align: center;">
+        <p>
+            &copy; 2025 Assignment1. All Rights Reserved.
+
+        </p>
+
+    </footer>
+</body>
+</html>
